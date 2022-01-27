@@ -120,3 +120,34 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+gmail = [
+   {
+     sender: "Becky",
+     opened: true,
+     responded: false,
+     important: false,
+     length_para: 5
+   },
+   {
+      sender: "Rick",
+      opened: false,
+      responded: false,
+      important: true,
+      length_para: 4
+    },
+    {
+      sender: "Joe",
+      opened: true,
+      responded: true,
+      important: false,
+      length_para: 15
+    },
+    {
+      sender: "Tom",
+      opened: true,
+      responded: true,
+      important: false,
+      length_para: 1
+    }
+  ]
+print gmail
